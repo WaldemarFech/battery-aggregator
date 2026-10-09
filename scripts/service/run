@@ -1,0 +1,7 @@
+#!/bin/sh
+# daemontools run script (installed to /data/battery-aggregator/service/run)
+exec 2>&1
+cd /data/battery-aggregator/current || exit 1
+exec python3 -m battery_aggregator.main \
+    --config /data/battery-aggregator/config.json \
+    --state /data/battery-aggregator/state.json

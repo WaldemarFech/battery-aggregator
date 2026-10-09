@@ -1,0 +1,14 @@
+[project]
+name = "battery-aggregator"
+version = "0.3.0"
+description = "Virtual battery for Victron Venus OS from parallel LiFePO4 packs (pure-Python core)"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]

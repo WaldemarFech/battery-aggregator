@@ -1,0 +1,3 @@
+#!/bin/sh
+# multilog: timestamped, rotating (10 x 250 kB) under /data so logs survive reboots (VERIFY multilog path)
+exec multilog t s250000 n10 /data/log/battery-aggregator

@@ -1,0 +1,19 @@
+{
+  "shadow": true,
+  "measured_shares_verified": false,
+  "commissioning_ccl_cap_a": 210.0,
+  "commissioning_dcl_cap_a": 59.0,
+  "dcl_emergency_a": 90.0,
+  "share_floor_equal_frac": 0.8,
+  "blind_charge_policy": "last_temp_margin",
+  "blind_temp_margin_k": 10.0,
+  "ccl_hw_a": null,
+  "inverter_ccl_cap_a": 210.0,
+  "dcl_hw_a": null,
+  "n1_mode": "hw",
+  "expected_pack_count": 3,
+  "auto_add_unknown": true,
+  "packs": [],
+  "device_instance": 512,
+  "enforce_system_settings": false
+}
